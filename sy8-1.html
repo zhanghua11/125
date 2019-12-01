@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			#wrapper{
+				height: 700px;
+				width: 500px;
+				color: #FFF;
+				background-color: gray;
+				border-radius: 15px;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto;
+			}
+			fieldset{
+				margin:0 10px 0 10px;
+				
+			}
+			caption{
+				display: inline-block;
+				font-size: 20px;
+				font-weight: bold;
+				margin-left: 200px;
+			}
+			div.kongkong{
+				height: 10px;
+			}
+			.doinb{
+						width: 100px;
+						margin: auto;
+					}
+			[name="huowu"]{
+						width: 224px;
+						height: 20px;
+			}
+			</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="wrapper">
+		<table>
+		<caption>增加快递信息</caption>  
+		</table>
+		<fieldset>
+			<legend>发货单</legend>
+			<div>&nbsp;</div>
+			<tr>
+				<th><label>发货人：<input type="text" name="height"></label></th>
+				&nbsp&nbsp&nbsp&nbsp&nbsp<th><label>地址：<input type="text" name="height"></th>
+				
+			</tr><br>
+			<div class="kongkong"></div>
+			<tr>
+				<th><label>电话:&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="height"></th>
+				&nbsp&nbsp&nbsp&nbsp&nbsp<th><label>邮编：<input type="text" name="height"></th>
+				<div>&nbsp;</div>
+			</tr>
+		</fieldset>
+		<div>&nbsp;</div>
+		<fieldset>
+			<legend>收货单</legend>
+			<tr>
+			<div>&nbsp;</div>
+				<th><label>收货人：<input type="text" name="height"></label></th>
+				&nbsp&nbsp&nbsp&nbsp&nbsp<th><label>地址：<input type="text" name="height"></th>
+			</tr><br> 
+			<div class="kongkong"></div>                                                                                          
+			<tr>
+				<th><label>电话:&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="height"></th>
+				&nbsp&nbsp&nbsp&nbsp&nbsp<th><label>邮编：<input type="text" name="height"></th><br>
+				<div>&nbsp;</div>
+				地区：&ensp;&nbsp;<select>
+					<option>北京</option>
+					<option>杭州</option>
+				</select><br>
+				<div>&nbsp;</div>
+				<form action="" method="get">
+				</form>
+				<label>包装:&nbsp&nbsp&nbsp</label>
+				<input type="checkbox" name="cover" value="">
+				<label for="xianjin">纸箱</label>
+				<input type="checkbox" name="cover" value="">
+				<label for="xianjin">木箱</label>
+				<input type="checkbox" name="cover" value="">
+				<label for="xianjin">快递袋</label>
+				<input type="checkbox" name="cover" value="">
+				<label for="xianjin">其他</label><br>
+<div>&nbsp;</div>
+				<label>付款方式:</label>
+				<input type="radio" name="cover" value="现金" >
+				<label for="xianjin">现金</label>
+				<input type="radio" name="cover" value="支付宝" id="zhifubao">
+				<label for="zhifubao">支付宝</label>
+				<input type="radio" name="cover" value="网银" id="wangyin">
+				<label for="wangyin">网银</label>
+				<input type="radio" name="cover" value="ATM" id="ATM">
+				<label for="ATM">ATM</label>
+				<div>&nbsp;</div>
+			</tr>
+		</fieldset>
+		<div>&nbsp;</div>
+		
+		
+		
+		
+		
+		
+		
+		<fieldset>
+			<table>
+			<tr>
+		<label>货物名称：<input type="text" name="huowu"></label>
+	
+			<tr>
+				<th><label>数量:<input type="text" name="height" class="long"></th>
+				<th><label>重量：<input type="text" name="height"></th>
+				<th><label>发货时间：<input type="text" name="height"></th>
+			</tr>
+			</table>
+		</fieldset>
+		<div class="doinb">
+						<input type="submit" name="submit" value="确定"><input type="submit" name="submit" value="取消">
+					</div>
+		</div>
+	</body>
+</html>
